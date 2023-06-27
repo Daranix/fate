@@ -66,7 +66,6 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "ng-packagr": "^9.0.0",
-    "node-sass": "^4.13.1",
     "protractor": "~5.1.2",
     "rxjs": "^6.5.5",
     "semantic-release": "^17.2.3",
@@ -83,6 +82,7 @@
     "url": "https://github.com/onaluf/fate.git"
   },
   "dependencies": {
+    "sass": "^1.63.6",
     "tslib": "^1.11.1"
   }
 }
