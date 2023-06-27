@@ -51,7 +51,8 @@ export class FateMaterialComponent implements  ControlValueAccessor, OnDestroy, 
   }
   protected _placeholder: string;
 
-  public uiId;
+  public uiId = 'material-' + instanceCounter;
+
   @HostBinding()
   id = `${this.uiId}`;
 
