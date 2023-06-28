@@ -1,6 +1,6 @@
 import { Component, Input, HostBinding, HostListener, Optional, Self, ElementRef, OnDestroy } from '@angular/core';
 import { ControlValueAccessor, NgControl } from '@angular/forms';
-import { MatFormFieldControl } from '@angular/material/form-field';
+import { MatLegacyFormFieldControl as MatFormFieldControl } from '@angular/material/legacy-form-field';
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
 
 import { defaultButtons } from '../fate-ui/fate-ui.component';
