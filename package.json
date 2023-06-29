@@ -79,7 +79,6 @@
     "url": "https://github.com/onaluf/fate.git"
   },
   "dependencies": {
-    "sass": "^1.63.6",
     "tslib": "^2.0.0"
   }
 }
